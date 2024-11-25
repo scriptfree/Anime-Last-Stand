@@ -28,7 +28,15 @@ Tab:AddButton({
 })
 
 Tab:AddToggle({
-    Name = "Rollback",
+    Name = "Rerolls back",
+    Default = false,
+    Callback = function(Value)
+        
+    end    
+})
+
+Tab:AddToggle({
+    Name = "Gems back",
     Default = false,
     Callback = function(Value)
         
